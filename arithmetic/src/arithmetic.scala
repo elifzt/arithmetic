@@ -1,4 +1,4 @@
-object ArithmeticExpression {
+object arithmetic {
   // Enumerated values
   object ArithmeticExpressionEnumeration extends Enumeration {
     type ArithmeticExpression = Value
