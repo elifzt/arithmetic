@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\arithmetic.scala:10:28: not found: value ArithmeticExpressionEnumeration[0m
-[0m[[0m[31merror[0m] [0m[0m  def evaluate(expression: ArithmeticExpressionEnumeration.ArithmeticExpression): Double = expression match {[0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\arithmetic.scala:20:26: not found: value ArithmeticExpressionEnumeration[0m
-[0m[[0m[31merror[0m] [0m[0m  def pretty(expression: ArithmeticExpressionEnumeration.ArithmeticExpression): String = expression match {[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\arithmetic.scala:16:43: not found: value operand1[0m
+[0m[[0m[31merror[0m] [0m[0mcase ArithmeticExpression.Pow => Math.pow(operand1, operand2).toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\arithmetic.scala:16:53: not found: value operand2[0m
+[0m[[0m[31merror[0m] [0m[0mcase ArithmeticExpression.Pow => Math.pow(operand1, operand2).toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
