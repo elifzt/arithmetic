@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\arithmetic_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	arithmetic[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\classes\arithmetic[0m
+[0m[[0m[0mdebug[0m] [0m[0m	arithmetic\ArithmeticExpression$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\classes\arithmetic\ArithmeticExpression$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	arithmetic\ArithmeticExpression.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\classes\arithmetic\ArithmeticExpression.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	arithmetic\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\classes\arithmetic\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	arithmetic\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\elisz\OneDrive\arithmetic\arithmetic\arithmetic\src\main\scala\target\scala-2.12\classes\arithmetic\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
