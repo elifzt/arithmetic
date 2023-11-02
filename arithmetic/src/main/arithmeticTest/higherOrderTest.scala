@@ -4,7 +4,6 @@ class ArithmeticTest extends AnyFunSuite {
       ArithmeticExpression.Num,
       ArithmeticExpression.Plus,
       ArithmeticExpression.Minus,
-      // Diğer ifadeleri burada ekleyin
     )
 
 val expectedResults = List(42.0, 7.0, -35.0)
@@ -18,7 +17,6 @@ val expectedResults = List(42.0, 7.0, -35.0)
       ArithmeticExpression.Num,
       ArithmeticExpression.Plus,
       ArithmeticExpression.Minus,
-      // Diğer ifadeleri burada ekleyin
     )
 
     val expectedOutput =
