@@ -1,36 +1,34 @@
-object arithmetic {
-  // Enumerated values
-  object ArithmeticExpressionEnumeration extends Enumeration {
-    type ArithmeticExpression = Value
-    val Num, Minus, Plus, Mult, Div, Pow = Value
-  }
+package arithmetic
 
-  // Import enum values
-  import ArithmeticExpressionEnumeration._
+object ArithmeticExpression extends Enumeration {
+  type ArithmeticExpression = Value
+  val Num, Minus, Plus, Mult, Div, Pow = Value
+}
 
+object Main {
   // Method to evaluate an arithmetic expression
-  def evaluate(expression: ArithmeticExpression): Double = expression match {
-    case Num => 42.0 // Örnek olarak, Num ifadesini 42 olarak değerlendirelim.
-    case Minus => -42.0 // Minus ifadesinin hesaplamasını ekleyin
-    case Plus => 5.0 // Plus ifadesinin hesaplamasını ekleyin
-    case Mult => 20.0 // Mult ifadesinin hesaplamasını ekleyin
-    case Div => 2.0 // Div ifadesinin hesaplamasını ekleyin
-    case Pow => 8.0 // Pow ifadesinin hesaplamasını ekleyin
+  def evaluate(expression: ArithmeticExpressionEnumeration.ArithmeticExpression): Double = expression match {
+    case ArithmeticExpression.Num => 42.0 // Num ifadesini 42 olarak değerlendirelim
+    case ArithmeticExpression.Minus => -42.0 // Minus ifadesinin hesaplamasını ekleyin
+    case ArithmeticExpression.Plus => 5.0 // Plus ifadesinin hesaplamasını ekleyin
+    case ArithmeticExpression.Mult => 20.0 // Mult ifadesinin hesaplamasını ekleyin
+    case ArithmeticExpression.Div => 2.0 // Div ifadesinin hesaplamasını ekleyin
+    case ArithmeticExpression.Pow => 8.0 // Pow ifadesinin hesaplamasını ekleyin
   }
 
   // Method to format arithmetic expressions in infix notation
-  def pretty(expression: ArithmeticExpression): String = expression match {
-    case Num => "Num"
-    case Minus => "Minus"
-    case Plus => "Plus"
-    case Mult => "Mult"
-    case Div => "Div"
-    case Pow => "Pow"
+  def pretty(expression: ArithmeticExpressionEnumeration.ArithmeticExpression): String = expression match {
+    case ArithmeticExpression.Num => "Num"
+    case ArithmeticExpression.Minus => "Minus"
+    case ArithmeticExpression.Plus => "Plus"
+    case ArithmeticExpression.Mult => "Mult"
+    case ArithmeticExpression.Div => "Div"
+    case ArithmeticExpression.Pow => "Pow"
   }
 
   // Example usage
   def main(args: Array[String]): Unit = {
-    val expr = ArithmeticExpressionEnumeration.Num // Örnek bir ifade seçin
+    val expr = ArithmeticExpression.Num // Örnek bir ifade seçin
     val result = evaluate(expr)
     val formatted = pretty(expr)
 
