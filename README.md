@@ -24,3 +24,4 @@ The project is configured using SBT (Scala Build Tool), which is Scala's build s
 
 Project Author:
 This project was created by Elif Zehra TUNÇ.
+https://github.com/elifzt/arithmetic.git
