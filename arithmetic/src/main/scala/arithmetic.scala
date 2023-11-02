@@ -26,7 +26,19 @@ object Main {
     case ArithmeticExpression.Pow => "Pow"
   }
 
-  // Example usage
+  def evaluate(expressions: List[ArithmeticExpression]): List[Double] = {
+    expressions.map(evaluate)
+  }
+
+  def showResults(expressions: List[ArithmeticExpression]): String = {
+    val results = expressions.map { expr =>
+      val result = evaluate(expr)
+      s"$expr = $result"
+    }
+    results.mkString("\n")
+  }
+  
+  
   def main(args: Array[String]): Unit = {
     val expr = ArithmeticExpression.Num
     val result = evaluate(expr)
