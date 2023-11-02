@@ -13,7 +13,7 @@ object Main {
     case ArithmeticExpression.Plus => 5.0
     case ArithmeticExpression.Mult => 20.0
     case ArithmeticExpression.Div => 2.0
-case ArithmeticExpression.Pow => Math.pow(operand1, operand2).toInt
+    case ArithmeticExpression.Pow => Math.pow(operand1, operand2).toInt
   }
 
   // Method to format arithmetic expressions in infix notation
